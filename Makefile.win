@@ -1,0 +1,69 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = Project1_private.res
+OBJ      = "2\ may\ 24/first.o" "2\ may\ 24/index.o" "27\ april\ 24/one.o" "27\ april\ 24/Untitled1.o" "27\ april\ 24/Untitled2.o" "4\ may\ 24/arithmatic.o" "6\ may\ 24/age\ validator.o" "6\ may\ 24/conditional.o" "assign\ 1/areaofcircle.o" "assign\ 1/areaoftriangle.o" "assign\ 1/simple\ interest.o" "assign\ 1/square.o" "assign\ 1/swap.o" Untitled3.o $(RES)
+LINKOBJ  = "2 may 24/first.o" "2 may 24/index.o" "27 april 24/one.o" "27 april 24/Untitled1.o" "27 april 24/Untitled2.o" "4 may 24/arithmatic.o" "6 may 24/age validator.o" "6 may 24/conditional.o" "assign 1/areaofcircle.o" "assign 1/areaoftriangle.o" "assign 1/simple interest.o" "assign 1/square.o" "assign 1/swap.o" Untitled3.o $(RES)
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -mwindows
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Project1.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+"2\ may\ 24/first.o": 2\ may\ 24/first.cpp
+	$(CPP) -c "2 may 24/first.cpp" -o "2 may 24/first.o" $(CXXFLAGS)
+
+"2\ may\ 24/index.o": 2\ may\ 24/index.cpp
+	$(CPP) -c "2 may 24/index.cpp" -o "2 may 24/index.o" $(CXXFLAGS)
+
+"27\ april\ 24/one.o": 27\ april\ 24/one.c++
+	$(CPP) -c "27 april 24/one.c++" -o "27 april 24/one.o" $(CXXFLAGS)
+
+"27\ april\ 24/Untitled1.o": 27\ april\ 24/Untitled1.cpp
+	$(CPP) -c "27 april 24/Untitled1.cpp" -o "27 april 24/Untitled1.o" $(CXXFLAGS)
+
+"27\ april\ 24/Untitled2.o": 27\ april\ 24/Untitled2.cpp
+	$(CPP) -c "27 april 24/Untitled2.cpp" -o "27 april 24/Untitled2.o" $(CXXFLAGS)
+
+"4\ may\ 24/arithmatic.o": 4\ may\ 24/arithmatic.cpp
+	$(CPP) -c "4 may 24/arithmatic.cpp" -o "4 may 24/arithmatic.o" $(CXXFLAGS)
+
+"6\ may\ 24/age\ validator.o": 6\ may\ 24/age\ validator.cpp
+	$(CPP) -c "6 may 24/age validator.cpp" -o "6 may 24/age validator.o" $(CXXFLAGS)
+
+"6\ may\ 24/conditional.o": 6\ may\ 24/conditional.cpp
+	$(CPP) -c "6 may 24/conditional.cpp" -o "6 may 24/conditional.o" $(CXXFLAGS)
+
+"assign\ 1/areaofcircle.o": assign\ 1/areaofcircle.cpp
+	$(CPP) -c "assign 1/areaofcircle.cpp" -o "assign 1/areaofcircle.o" $(CXXFLAGS)
+
+"assign\ 1/areaoftriangle.o": assign\ 1/areaoftriangle.cpp
+	$(CPP) -c "assign 1/areaoftriangle.cpp" -o "assign 1/areaoftriangle.o" $(CXXFLAGS)
+
+"assign\ 1/simple\ interest.o": assign\ 1/simple\ interest.cpp
+	$(CPP) -c "assign 1/simple interest.cpp" -o "assign 1/simple interest.o" $(CXXFLAGS)
+
+"assign\ 1/square.o": assign\ 1/square.cpp
+	$(CPP) -c "assign 1/square.cpp" -o "assign 1/square.o" $(CXXFLAGS)
+
+"assign\ 1/swap.o": assign\ 1/swap.cpp
+	$(CPP) -c "assign 1/swap.cpp" -o "assign 1/swap.o" $(CXXFLAGS)
+
+Project1_private.res: Project1_private.rc 27\ april\ 24/Project1_private.rc
+	$(WINDRES) -i Project1_private.rc --input-format=rc -o Project1_private.res -O coff 
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Project1" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="2 may 24/first.cpp" />
+		<Unit filename="2 may 24/first.exe" />
+		<Unit filename="2 may 24/index.cpp" />
+		<Unit filename="2 may 24/index.exe" />
+		<Unit filename="27 april 24/Project1.dev" />
+		<Unit filename="27 april 24/Project1_private.h" />
+		<Unit filename="27 april 24/Project1_private.rc">
+			<Option compilerVar="CPP" />
+		</Unit>
+		<Unit filename="27 april 24/Untitled1.cpp" />
+		<Unit filename="27 april 24/Untitled1.exe" />
+		<Unit filename="27 april 24/Untitled2.cpp" />
+		<Unit filename="27 april 24/one.c++" />
+		<Unit filename="4 may 24/arithmatic.cpp" />
+		<Unit filename="4 may 24/arithmatic.exe" />
+		<Unit filename="6 may 24/age validator.cpp" />
+		<Unit filename="6 may 24/age validator.exe" />
+		<Unit filename="6 may 24/conditional.cpp" />
+		<Unit filename="6 may 24/conditional.exe" />
+		<Unit filename="Untitled3" />
+		<Unit filename="assign 1/areaofcircle.cpp" />
+		<Unit filename="assign 1/areaofcircle.exe" />
+		<Unit filename="assign 1/areaoftriangle.cpp" />
+		<Unit filename="assign 1/areaoftriangle.exe" />
+		<Unit filename="assign 1/simple interest.cpp" />
+		<Unit filename="assign 1/simple interest.exe" />
+		<Unit filename="assign 1/square.cpp" />
+		<Unit filename="assign 1/square.exe" />
+		<Unit filename="assign 1/swap.cpp" />
+		<Unit filename="assign 1/swap.exe" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

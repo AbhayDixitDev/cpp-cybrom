@@ -1,0 +1,318 @@
+[Project]
+FileName=Project1.dev
+Name=Project1
+Type=0
+Ver=2
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=Project1_private.rc
+ResourceIncludes=
+MakeIncludes=
+Compiler=
+CppCompiler=
+Linker=
+IsCpp=1
+Icon=
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=
+CommandLine=
+Folders="2 may 24","27 april 24","4 may 24","6 may 24","7 may 24","assign 1"
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=0
+CompilerSettings=0000000000000000000000000
+UnitCount=28
+
+[VersionInfo]
+Major=1
+Minor=0
+Release=0
+Build=0
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=
+FileDescription=Developed using the Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=
+AutoIncBuildNr=0
+SyncProduct=1
+
+[Unit1]
+FileName=2 may 24\first.cpp
+CompileCpp=1
+Folder=2 may 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=2 may 24\first.exe
+Folder=2 may 24
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=2 may 24\index.cpp
+CompileCpp=1
+Folder=2 may 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=2 may 24\index.exe
+Folder=2 may 24
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=27 april 24\one.c++
+CompileCpp=1
+Folder=27 april 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=27 april 24\Project1.dev
+Folder=27 april 24
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=27 april 24\Project1_private.h
+CompileCpp=1
+Folder=27 april 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit8]
+FileName=27 april 24\Project1_private.rc
+Folder=27 april 24
+Compile=1
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=27 april 24\Untitled1.cpp
+CompileCpp=1
+Folder=27 april 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit10]
+FileName=27 april 24\Untitled1.exe
+Folder=27 april 24
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit11]
+FileName=27 april 24\Untitled2.cpp
+CompileCpp=1
+Folder=27 april 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit12]
+FileName=4 may 24\arithmatic.cpp
+CompileCpp=1
+Folder=4 may 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit13]
+FileName=4 may 24\arithmatic.exe
+Folder=4 may 24
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit14]
+FileName=6 may 24\age validator.cpp
+CompileCpp=1
+Folder=6 may 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit15]
+FileName=6 may 24\age validator.exe
+Folder=6 may 24
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit16]
+FileName=6 may 24\conditional.cpp
+CompileCpp=1
+Folder=6 may 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit17]
+FileName=6 may 24\conditional.exe
+Folder=6 may 24
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit18]
+FileName=assign 1\areaofcircle.cpp
+CompileCpp=1
+Folder=assign 1
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit19]
+FileName=assign 1\areaofcircle.exe
+Folder=assign 1
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit20]
+FileName=assign 1\areaoftriangle.cpp
+CompileCpp=1
+Folder=assign 1
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit21]
+FileName=assign 1\areaoftriangle.exe
+Folder=assign 1
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit22]
+FileName=assign 1\simple interest.cpp
+CompileCpp=1
+Folder=assign 1
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit23]
+FileName=assign 1\simple interest.exe
+Folder=assign 1
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit24]
+FileName=assign 1\square.cpp
+CompileCpp=1
+Folder=assign 1
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit25]
+FileName=assign 1\square.exe
+Folder=assign 1
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit26]
+FileName=assign 1\swap.cpp
+CompileCpp=1
+Folder=assign 1
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit27]
+FileName=assign 1\swap.exe
+Folder=assign 1
+Compile=0
+Link=0
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit28]
+FileName=Untitled3
+Folder=7 may 24
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
