@@ -1,3 +1,4 @@
+//Sum of first and last digit of number
 #include<iostream>
 #include<cmath>
 using namespace std;
