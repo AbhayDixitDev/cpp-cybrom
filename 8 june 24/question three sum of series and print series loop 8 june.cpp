@@ -9,16 +9,17 @@
 using namespace std;
 int main(){
 	
-	int n,result=1;
-	cout<<"enter a number for series";
+	int n,result=0;
+	cout<<"enter a number for series :";
 	cin>>n;
 	int i=1;
-	cout<<"("<<i<<"*"<<i<<")";
-	i++;
 	while(i<=n){
-		cout<<" +  "<<"("<<i<<"*"<<i<<")";
+	if(i<n)
+		cout<<"("<<i<<"*"<<i<<")"<<"+";
+	else
+		cout<<"("<<i<<"*"<<i<<")"<<"=";
 		result=result+ i*i;
 		i++;
 	}
-	cout<<endl<<"sum of series is:"<<result;
+	cout<<result;
 }
