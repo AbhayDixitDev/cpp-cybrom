@@ -24,7 +24,7 @@ while(n1!=0  && i>0)
 			int n2;
 		n2=n1/power;
 		cout<<"n2 is "<<n2<<endl;
-	    if(i%2==0){			
+	    if(i%2!=0){			
 			sum=sum+n2;
 			cout<<"i is"<<i<<endl;
 			
