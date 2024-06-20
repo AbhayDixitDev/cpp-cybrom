@@ -9,7 +9,12 @@ int main(){
 	if(i>range){
 		i=i+range;
 	    range=i-range;	
-		i=i-range;				
+	    
+		i=i-range;		
+		
+		
+		
+				
 	}
 	while(i<=range)	
 	{ 
