@@ -15,9 +15,12 @@ int main(){
 	int i=1;
 	while(i<=n){
 	if(i<n)
+		{
 		cout<<"("<<i<<"*"<<i<<")"<<"+";
-	else
-		cout<<"("<<i<<"*"<<i<<")"<<"=";
+		}
+	else{
+		cout<<"("<<i<<"*"<<i<<")"<<"=";	
+	}
 		result=result+ i*i;
 		i++;
 	}

@@ -4,12 +4,9 @@
 using namespace std;
 int main()
 {
-	int last=0,sum=0,power,count=0,temp=0;
-	for(int n=100;n<=10000000000;n++){
-		sum=0;
-		last=0;
-		power=0;
-		count=0;
+	int last=0;
+	for(int n=100;n<=10000;n++){
+		int sum=0,power,count=0,temp=0;
 		temp=n;
 		for(int i=1;n>0;i++){
 			n=n/10;
