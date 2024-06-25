@@ -8,10 +8,12 @@ int main()
 	if(marks[0]>marks[1]){
 		high=marks[0];
 		secondhighest=marks[1];
+		
 	}
 	else{
 		high=marks[1];
 		secondhighest=marks[0];
+		
 	}
 	
 	low=secondhighest;
@@ -28,6 +30,7 @@ int main()
 		
 		if(marks[i]<low){
 			low=marks[i];
+			
 		}
 	}
 	cout<<"highest number is:"<<high<<endl;
