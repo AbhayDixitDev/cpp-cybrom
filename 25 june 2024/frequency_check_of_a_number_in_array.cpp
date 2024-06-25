@@ -5,6 +5,7 @@ using namespace std;
 int main(){
 	int n;
 	cout<<"enter item numbers:";
+	
 	cin>>n;
 	int arr[n];
 	int speci,freq;
@@ -17,6 +18,7 @@ int main(){
 	for(int i=0;i<n;i++){
 		if(arr[i]==speci){
 			freq++;
+			
 		}
 	}
 	
