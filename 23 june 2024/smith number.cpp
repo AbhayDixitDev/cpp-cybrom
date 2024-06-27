@@ -14,16 +14,23 @@ int main()
 	}
 	
 	n=temp;
-	for(int i=2;i<n;i){  // loop for check is n is fully divisible by i prime number or not
+	for(int i=2;i<=n;i){  // loop for check is n is fully divisible by i prime number or not
 		bool isprime=true;
 		for(int j=2;j<=i/2;j++){ //loop for prime check
 			if(i%j==0){
+//	            cout<<j<<endl;
 				isprime=false;
 				break;
 			}
+		
 			
 		}
-		if(isprime==true && n%i==0){
+			if(isprime==true){
+			cout<<i<<endl;
+		}
+		
+		
+		if(isprime==true && n%i==0){   
 				sum2=sum2+i;
 			n=n/i;
 			}			
