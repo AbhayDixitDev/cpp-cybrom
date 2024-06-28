@@ -1,0 +1,91 @@
+if else question basics
+
+
+level-1
+ Write a program to take two number from user and check who is max.
+ Write a program to take input age of male or Female and check he/she is eligible for marriage or not.
+ ask age and gender.
+ Write a program to Take values of length and breadth of a rectangle from user 
+ and check if it is square or not.
+ Write a program to Take values of length and breadth of a rectangle from user ,also
+ Take value of side of a square from user ,and check which area is greater.
+ Write a C++ program to find maximum between three numbers
+
+level-2
+ Write a C++ program to find minimum and second minimum between three numbers
+ Write a  program to input a cost of a pen and calculate 70 pens cost with some discount.
+ if total pen cost greater than 1000 then we calculate 20% discount otherwise 10%.
+ Write a program to read the value of an integer m and display the message "ok" when m is larger than 0,
+display the message "bye" when m is 0 and display the message "done" when m is less than 0.
+
+ Write a program to A school has following rules for grading system: 
+a. Below 25 - F 
+b. 25 to 45 - E 
+c. 45 to 50 - D 
+d. 50 to 60 - C 
+e. 60 to 80 - B 
+f. Above 80 - A 
+
+ Ask user to enter marks and print the corresponding grade.
+
+Write a C program to read temperature in centigrade and display a suitable message according to the temperature state below:
+Temp < 0 then Freezing weather
+Temp 0-10 then Very Cold weather
+Temp 10-20 then Cold weather
+Temp 20-30 then Normal in Temp
+Temp 30-40 then Its Hot
+Temp >=40 then Its Very Hot
+
+level-3
+
+
+Write a  program to determine eligibility for admission to a professional course based on the following criteria:
+Marks in Maths >=65
+Marks in Phy >=55
+Marks in Chem>=50
+Total in all three subject >=190
+
+
+
+
+
+
+question
+
+
+If else
+Write a program that accepts a number from user and calculate whether it is positive or negative or zero
+Write a program to calculate whether year is leap year or not?
+Write a program to calculate whether a character is vowel or consonant.
+Write a program to calculate whether character is in lowercase or uppercase.
+Write a program to calculate smallest number out of given three numbers.
+Write a program that accepts marks (out of 100) of five subjects from user and calculate the sum then calculate percentage? Display message according to following condition:
+percentage >=60 Grade A
+percentage >=50 Grade B
+percentage >=40 Grade C
+percentage  <40 Grade D
+
+
+question 2
+
+A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
+Ask user for their salary and year of service and print the net bonus amount.
+
+
+question 3
+
+.
+A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
+Ask user for quantity
+Suppose, one unit will cost 100.
+Judge and print total cost for user.
+
+question 4
+
+A student will not be allowed to sit in exam if his/her attendence is less than 75%.
+Take following input from user
+Number of classes held
+Number of classes attended.
+And print
+percentage of class attended
+Is student is allowed to sit in exam or not.

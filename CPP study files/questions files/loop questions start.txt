@@ -1,0 +1,10 @@
+Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+ Write a loop that asks the user to enter two numbers. The numbers should be added and the sum displayed. The loop should ask the user whether he or she wishes to perform the operation again. If so, the loop should repeat; otherwise it should terminate.
+ Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
+ Write a program to enter the numbers till the user wants and at the
+end the program
+should display the largest  entered.
+Write a program to enter the numbers till the user wants and at the
+end the program
+should display  smallest number entered.
+ Write a program that reads a set of integers, and then prints only number which contains 0 at ones place ex:

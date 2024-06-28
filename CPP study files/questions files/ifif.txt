@@ -1,0 +1,19 @@
+A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
+Ask user for quantity
+Suppose, one unit will cost 100.
+Judge and print total cost for user.
+
+Write a program to Take values of length and breadth of a rectangle from user 
+ and check if it is square or not.
+
+Write a C++ program to find maximum between three numbers.
+
+Write a program to take input age of male or Female and check he/she is eligible for marriage or not.
+ ask age and gender.
+
+Write a program to read the value of an integer m and display the message "ok" when m is larger than 0,
+display the message "bye" when m is smaller then 0.
+
+Write a program to calculate whether a character is vowel or consonant.
+
+Write a program to calculate whether character is in lowercase or uppercase.

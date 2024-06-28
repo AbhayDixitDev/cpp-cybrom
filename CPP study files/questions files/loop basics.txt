@@ -1,0 +1,25 @@
+1. Write a program to print all natural numbers from 1 to n
+2. Write a program to print all natural numbers in reverse
+3. Write a program to print tables
+4. Write a program to print reverse tables
+5. Write a program to print all alphabets from a to z
+6. Write a program to print reverse alphabets from Z to A
+7. Write a program to print all even numbers between 1 to 100
+8. Write a program to print all odd number between 1 to 100
+9. Write a program to find sum of all natural numbers between 1 to n
+10. Write a program to find sum of all even numbers between 1 to n
+11. Write a program to find sum of all odd numbers between 1 to n
+12. Write a program to find the factorial value of any number
+13. Write a program to find the value of one number raised to the 
+power of another.
+14.write a program to reverse the given Digits
+15. write a program to sum of its Digits
+16. write a program to Check Whether a Given Number is Prime or Not
+17. Write a program to calculate HCF of Two given number
+18. Write a program to enter the numbers till the user wants and at the end 
+it should display the count of positive, negative and zeros entered
+19. Write a program to enter the numbers till the user wants and at the end the program
+ should display the largest and smallest numbers entered
+20. Write a program to find number and sum of all integer between 100 and 200 
+which are divisible by 9.
+

@@ -1,0 +1,5 @@
+if else questions 
+Write a program to calculate area of different Shapes based on users choice S, C or R (like s for square, c for circle, and r for rectangle).
+ Write a program to show day of week according to user input.
+ Write a program to check if entered character is vowel or not.
+ Write a program to check whether a number is even or odd using switch-case.

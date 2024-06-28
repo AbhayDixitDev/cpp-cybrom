@@ -30,10 +30,10 @@ int main()
 		}
 	}
 
-	for(int i=n1+1;i<=n;i++){
+	for(int i=n1;i<n;i++){
 		nums[i]=0;
 	}
-		for(int i=0;i<=n;i++){
+		for(int i=0;i<n;i++){
 		cout<<nums[i]<<" ";
 	}
 

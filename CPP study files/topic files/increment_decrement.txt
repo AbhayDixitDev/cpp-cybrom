@@ -1,0 +1,69 @@
+Q.1>
+#include<iostream>
+    using namespace std;
+    int main()
+    {
+        int x = 5, y = 5;
+        cout << ++x << --y << endl;
+        return 0;
+    }
+
+Q.2
+#include<iostream>
+    using namespace std;
+    int main()
+    {
+        int number1 = 5;
+        int number2 = 3;
+        int number3 = 2;
+        number1 = number2++;
+        number2 = --number3;
+        cout << number1 << number2 << ++number3;
+        return 0;
+    }
+
+Q.3
+ #include<iostream>
+    using namespace std;
+    int main()
+    {
+        int x = 5, y = 5, z;
+        x = ++x; y = --y;
+        z = x++ + y--;
+        cout << z;
+        return 0;
+    }
+
+Q.4
+   
+    #include<iostream> 
+    using namespace std;
+    int main()
+    {
+        int x = 5, y = 5, z;
+        x = ++x; y = --y;
+        ++y;
+        z = x + ++x;
+        cout << z;
+        return 0;
+    }
+
+Q.5
+
+#include<iostream>
+    using namespace std;
+    int main()
+    {
+        int s = 53;
+        int w = -3;  //4
+        int z = 22; //1
+          //1
+        cout << ++s <<endl;
+        w=++s;
+        cout<<w<<endl;
+        z=s--;
+        cout<<z<<endl;
+        s=++s;
+        cout<<s<<endl;
+        return 0;
+    }
