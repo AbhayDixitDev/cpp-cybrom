@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int arr[8]={1,2,1,3,4,5,4,6};
+	int arr[8]={1,1,23,2,1,56,1,2};
 	bool unique;
 	for(int i=0;i<8;i++){
 		unique=false;
