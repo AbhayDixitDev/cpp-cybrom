@@ -13,29 +13,23 @@ int main()
 		cout<<"enter a number for array:";
 		cin>>arr[i];
 	}
+	int j=0,k=0;
 	for(int i=0;i<n;i++){
 		if(arr[i]%2!=0){
-		for(int j=0;j<n;j++){
 			o_arr[j]=arr[i];
-			
-		}
-		olen++;
-	}
-		int j=0;
-		
-		while(arr[i]%2==0){
-			e_arr[j]=arr[i];
-			cout<<e_arr[i]<<" ";
 			j++;
+			olen++;			
+		}
+		if(arr[i]%2==0){
+			e_arr[k]=arr[i];
+			k++;
 			elen++;
 			
 		}
-		
+	}	
 	
-	
-	}
-	cout<<elen<<" "<<olen;
-	cout<<endl;
+//	cout<<elen<<" "<<olen;
+//	cout<<endl;
 	cout<<"even array:";
 	for(int i=0;i<elen;i++){
 		cout<<e_arr[i]<<" ";

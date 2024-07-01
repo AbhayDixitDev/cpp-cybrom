@@ -5,9 +5,9 @@
 using namespace std;
 int main()
 {
-   int arr[8]={1,2,3,4,4,3,7,6},sum=0;
-   for(int i=0;i<8;i++){
-   	for(int j=i+1;j<8;j++){
+   int arr[10]={1,2,3,4,4,3,7,6,7,6},sum=0;
+   for(int i=0;i<10;i++){
+   	for(int j=i+1;j<10;j++){
    		if(arr[i]==arr[j]){
    			cout<<arr[i]<<" + ";
    			sum=sum+arr[i];

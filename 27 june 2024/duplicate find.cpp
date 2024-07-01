@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
    int arr[8]={1,2,3,4,4,3,7,6};
-   for(int i=0;i<8;i++){
-   	for(int j=i+1;j<8;j++){
+   for(int i=7;i>=0;i--){
+   	for(int j=i-1;j>=0;j--){
    		if(arr[i]==arr[j]){
    			cout<<"Duplicate number at index:"<<i<<" and number is:"<<arr[i]<<endl;
 		   }

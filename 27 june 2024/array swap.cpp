@@ -1,4 +1,4 @@
-//WAP to create an array with n even elements. (hint: use while loop instead of for)
+//WAP to copy the elements of one array into another array.
 #include<iostream>
 using namespace std;
 int main()
@@ -8,8 +8,12 @@ int main()
    int i=0;
    while(i<4){
    	arr1[i]=arr[i];
-   	cout<<arr1[i]<<" ";
    	i++;
+   }
+   i=3;
+   while(i>=0){
+   	cout<<arr1[i]<<" ";
+   	i--;
    }
 }
 

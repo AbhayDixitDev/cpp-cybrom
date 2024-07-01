@@ -8,11 +8,18 @@ int main()
 	cout<<"enter size of array:";
 	cin>>n;
 	int arr[n];
-	int i=0;
+	int i=0,even;
 	while(i<n){
+		even=0;
 		cout<<"enter value for array:";
-		cin>>arr[i];
+		cin>>even;
+		if(even%2==0){	
+		arr[i]=even;
 		i++;
+		}
+		else{
+			cout<<"entered number is not even:"<<endl;
+		}
 	}
 	i=0;
 	while(i<n){
