@@ -23,7 +23,7 @@ int main()
 	   }
    }
    cout<<"Alphabets in String are :"<<alpha;
-   cout<<endl<<"Digits in string are:"<<digit;
+   cout<<endl<<"Digits in String are:"<<digit;
 }
 
 
