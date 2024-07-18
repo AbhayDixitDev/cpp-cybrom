@@ -15,7 +15,7 @@ int main()
                     // address return holds in p1
    
    if(*p>*p2){
-   	cout<<*p<<" is greater than "<<*p2;
+   	cout<<*p<<" is greater than "<<*p2;  //dereference
    }
    else{
    	cout<<*p2<<" is greater than "<<*p;
