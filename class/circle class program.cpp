@@ -4,30 +4,28 @@
 //which will compute the area and the perimeter of a circle
 
 
-#include <iostream>
-#include <cmath> 
-
+#include<iostream>
+using namespace std;
+const double PI=3.14;
 class Circle {
-private:
-    double radius;
-
 public:
-    Circle(double r) : radius(r) {}
-
-    double calculateArea() {
-        return M_PI * pow(radius, 2);
+	double radius;
+    void calculateArea() {
+        cout << "Area of the circle: "<< PI * radius * radius * 1.0;
     }
 
-    double calculatePerimeter() {
-        return 2 * M_PI * radius;
+    void calculatePerimeter() {
+        cout << "Perimeter of the circle: " << 2 * PI * radius;
     }
 };
 
 int main() {
-    Circle myCircle(5.0); 
+    Circle myCircle;
+	cout << "Enter Radius of Circle: " ;
+	cin >> myCircle.radius; 
 
-    std::cout << "Area of the circle: " << myCircle.calculateArea() << std::endl;
-    std::cout << "Perimeter of the circle: " << myCircle.calculatePerimeter() << std::endl;
+    myCircle.calculateArea();
+    cout<<"\n";
+    myCircle.calculatePerimeter();
 
-    return 0;
 }
