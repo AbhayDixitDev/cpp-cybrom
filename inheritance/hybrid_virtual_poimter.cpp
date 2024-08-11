@@ -1,4 +1,4 @@
-//Virtual Inheritance:
+//Virtual Inheritance/Pointer:
 
 #include<iostream>
 using namespace std;
@@ -24,5 +24,11 @@ int main(){
 	cout<<"P1:"<<sizeof(P1)<<endl;
 	cout<<"P2:"<<sizeof(P2)<<endl;
 	cout<<"C:"<<sizeof(C)<<endl;
+	
+	C obj;
+	obj.number=90;
+	obj.P1::number=23;
+	obj.P2::number=50;
+	cout<<"Number is "<< obj.number;
 }
 	

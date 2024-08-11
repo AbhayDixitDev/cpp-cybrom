@@ -7,7 +7,7 @@ public:
 string category;
 Game (string cat ) {
 category=cat;
-}
+
 void display() {
 cout<<"this is "<<category<<endl;
 }
