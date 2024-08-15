@@ -1,3 +1,5 @@
+//Q.1>Design a base class Person with name and address attributes. Derive classes Student and Teacher from Person.
+
 #include<iostream>
 using namespace std;
 
