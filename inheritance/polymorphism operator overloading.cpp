@@ -24,7 +24,7 @@ class Student{
 	}
 	public:
 		
-		void operator+(Student formal){
+		void operator + (Student formal){
 			cout<<"+operator redefine";
 			cout<<"operator overloading";
 		}
