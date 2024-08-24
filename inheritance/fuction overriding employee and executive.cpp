@@ -7,7 +7,7 @@ class Employee{
 			cout<<"Salary prepare employee\n";
 		}
 		void promotion(){
-			cout<<"if employee year>4-->promotion 1\n";
+			cout<<"if employee year>4-->promotion \n";
 		}
 };
 
