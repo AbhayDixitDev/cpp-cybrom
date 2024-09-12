@@ -11,6 +11,7 @@ class Cybrom{
 	    Cybrom(int enr,string name){
 	    	enroll=enr;
 	    	student_name=name;
+	    	
 		}
 		
 		void display(){
@@ -20,6 +21,7 @@ class Cybrom{
 		} 		
 		static void changeInsName(string newname){
 			institute_name=newname;
+			
 		}
 	};	
 	string Cybrom::institute_name="Cybrom";
