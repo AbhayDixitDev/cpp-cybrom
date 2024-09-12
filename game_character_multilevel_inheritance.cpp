@@ -8,6 +8,7 @@ using namespace std;
 
 // Base class Ability
 class Ability {
+	
 public:
     virtual void perform() = 0;
 };
@@ -37,6 +38,7 @@ public:
 };
 
 // Character class
+
 class Character {
 private:
     Ability* ability;
