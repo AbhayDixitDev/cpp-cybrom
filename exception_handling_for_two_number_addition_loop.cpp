@@ -15,8 +15,10 @@ int main(){
 	string choice="y";
 	try{
 	while(choice=="y"){
+		
 		cout<<"enter two numbers for addition:";
 		cin>>num1>>num2;
+		
 	    if(num1+num2>100){
 	    	throw num1+num2;
 		}
