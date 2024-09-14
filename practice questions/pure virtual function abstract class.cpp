@@ -9,6 +9,7 @@
 #include <iostream>
 using namespace std;
 
+
 class AbstractClass{
 	public:
 		virtual void doSomething()=0;
