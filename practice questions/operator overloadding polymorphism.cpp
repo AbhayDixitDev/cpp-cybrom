@@ -26,8 +26,6 @@ public:
         double newImaginary = imaginary + other.imaginary;
         return ComplexNumber(newReal, newImaginary);
     }
-
-    // Method to display the complex number
     void display() {
         cout << real << " + " << imaginary << "i" << endl;
     }
