@@ -1,4 +1,4 @@
-if we want to show shallow and deep copy we have to use heap memory
+if we want to show shallow and deep copy we have to use heap memory.
 
 
 in stack it only uses deep copy
